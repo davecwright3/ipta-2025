@@ -2,11 +2,12 @@
 version: 1
 project:
   id: 5582aec3-f4ce-4df9-bd59-00e99f872877
-  # title:
+  jupyter: true
+  title: A Short Introduction to Bayesian Inference
   # description:
   # keywords: []
   # authors: []
-  # github:
+  github: davecwright3/ipta-2025
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
