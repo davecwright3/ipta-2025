@@ -1,0 +1,31 @@
+[project]
+name = "ipta-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arviz>=0.21.0",
+    "blackjax>=1.2.5",
+    "graphviz>=0.21",
+    "ipywidgets>=8.1.7",
+    "jaxns>=2.6.8",
+    "jupyterlab>=4.4.3",
+    "jupyterlab-mathjax3>=4.3.0",
+    "jupyterlab-myst>=2.4.2",
+    #"jupyterlab-quarto>=0.3.5",
+    "jupytext>=1.17.2",
+    "matplotlib>=3.10.3",
+    "numpyro>=0.18.0",
+    "pyarrow>=20.0.0",
+]
+
+[dependency-groups]
+jupyter-extensions = [
+    "jldracula>=0.2.0",
+    "jupyterlab-code-formatter>=3.0.2",
+    "jupyterlab-lsp>=5.1.1",
+    "jupyterlab-vim>=4.1.4",
+    "python-lsp-server[all]>=1.12.2",
+    "ruff>=0.11.13",
+]
