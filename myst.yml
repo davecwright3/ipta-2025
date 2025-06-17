@@ -6,7 +6,16 @@ project:
   title: "IPTA 2025 Student Week Lecture"
   # description:
   # keywords: []
-  # authors: []
+  authors:
+    - name: David Wright
+      id: dw
+      orcid: 0000-0003-1562-4679
+      email: david.wright@nanograv.org
+      affiliation:
+        - name: Oregon State University
+          city: Corvallis
+          state: OR
+          url: https://www.oregonstate.edu
   github: davecwright3/ipta-2025
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
@@ -19,4 +28,3 @@ site:
     favicon: figs/ipta-logo.ico
     logo: figs/ipta-logo.png
     logo_text: IPTA 2025
-    hide_toc: false
