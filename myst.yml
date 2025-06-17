@@ -14,7 +14,9 @@ project:
     - file: intro-bayesian-inference.ipynb
 site:
   template: book-theme
+  title: "An Introduction to Bayesian Inference"
   options:
+    favicon: figs/ipta-logo.ico
+    logo: figs/ipta-logo.png
+    logo_text: IPTA 2025
     hide_toc: false
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
