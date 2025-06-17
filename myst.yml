@@ -3,12 +3,15 @@ version: 1
 project:
   id: 5582aec3-f4ce-4df9-bd59-00e99f872877
   jupyter: true
-  title: A Short Introduction to Bayesian Inference
+  title: "IPTA 2025 Student Week Lecture"
   # description:
   # keywords: []
   # authors: []
   github: davecwright3/ipta-2025
   # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - file: intro-bayesian-inference.ipynb
 site:
   template: book-theme
   options:
