@@ -23,7 +23,7 @@ project:
     - file: intro-bayesian-inference.ipynb
 site:
   template: book-theme
-  title: "An Introduction to Bayesian Inference"
+  title: "IPTA 2025 Student Week Lecture"
   options:
     favicon: figs/ipta-logo.ico
     logo: figs/ipta-logo.png
